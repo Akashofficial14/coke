@@ -1,0 +1,148 @@
+PS C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3> npm install tailwindcss
+npm : File C:\Program Files\nodejs\npm.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see 
+about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ npm install tailwindcss
++ ~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3> npm install tailwindcss @tailwindcss/cli
+npm : File C:\Program Files\nodejs\npm.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see 
+about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ npm install tailwindcss @tailwindcss/cli
++ ~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3> node -v
+v22.18.0
+PS C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3> node -v
+v22.18.0
+PS C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3> npm install tailwindcss @tailwindcss/cli
+npm : File C:\Program Files\nodejs\npm.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see 
+about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ npm install tailwindcss @tailwindcss/cli
++ ~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3> npm install tailwindcss @tailwindcss/cli
+>>
+npm : File C:\Program Files\nodejs\npm.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see 
+about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ npm install tailwindcss @tailwindcss/cli
++ ~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3> Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+>>
+PS C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3> Get-ExecutionPolicy -List
+>>
+
+        Scope ExecutionPolicy
+        ----- ---------------
+MachinePolicy       Undefined
+   UserPolicy       Undefined
+      Process       Undefined
+  CurrentUser    RemoteSigned
+ LocalMachine       Undefined
+
+
+PS C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3> npm install
+>>
+
+up to date, audited 45 packages in 2s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3> npm install tailwindcss @tailwindcss/cli
+
+up to date, audited 45 packages in 2s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3> npm install tailwindcss @tailwindcss/cli
+
+up to date, audited 45 packages in 2s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3> npm list tailwindcss
+>>
+MICRO@ C:\Users\MICRO
+├─┬ @tailwindcss/cli@4.1.13
+│ ├─┬ @tailwindcss/node@4.1.13
+│ │ └── tailwindcss@4.1.13 deduped
+│ └── tailwindcss@4.1.13 deduped
+└── tailwindcss@4.1.13
+
+PS C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3> npx tailwindcss init -p
+>>
+≈ tailwindcss v4.1.13
+
+Invalid command: init
+
+Usage:
+  tailwindcss [options]
+
+Options:
+  -i, --input ················· Input file
+  -o, --output ················ Output file [default: `-`]
+  -w, --watch[=always] ········ Watch for changes and rebuild as needed, and use `always` to keep watching when stdin is closed
+  -m, --minify ················ Optimize and minify the output
+      --optimize ·············· Optimize the output without minifying
+      --cwd ··················· The current working directory [default: `.`]
+      --map ··················· Generate a source map [default: `false`]
+  -h, --help ·················· Display usage information
+PS C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3> npm install tailwindcss @tailwindcss/cli
+
+up to date, audited 45 packages in 4s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3> npm install tailwindcss @tailwindcss/cli
+
+up to date, audited 45 packages in 2s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3> npm init -y
+Wrote to C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3\package.json:
+
+{
+  "name": "lp-project-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+PS C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3> npm install tailwindcss @tailwindcss/cli --save-dev
+>>
+
+added 41 packages, and audited 42 packages in 10s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\MICRO\Desktop\MERN15\LANDING PAGES\LP PROJECT 3> npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+≈ tailwindcss v4.1.13
