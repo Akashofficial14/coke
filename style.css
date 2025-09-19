@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+  overflow: hidden;
+}
+
+nav img{
+  height: 120px;
+  /* width: 20px; */
+}
+#center-bg{
+border-top-left-radius: 1000px;
+border-top-right-radius: 1000px;
+background-image: url(https://imgs.search.brave.com/wUvmXRJ6f-MVZ4xLglJG_QkFfWf2b9pE_RkRdYJrIyA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/dmludGFnZS1jb2Nh/LWNvbGEtbmVvbi12/MC10OXB5c3JqcHI4/a2ExLmpwZz93aWR0/aD02NDAmY3JvcD1z/bWFydCZhdXRvPXdl/YnAmcz0wM2ExMWQz/MDE3MmFkZTVhZWQz/YmY0ZmFjMDRlNDJj/OTRmZDhkNGVm);
+background-size: 200%;
+background-position: 50% 50% ;
+filter: blur(2px);
+}
+#part2 img{
+  height: 82%;
+  position: absolute;
+  left:39%;
+}
+#part3{
+  position: relative;
+}
+#content{
+  position: absolute;
+  top:35%;
+  left:20%;
+}
+.conp1{
+  border-bottom: 2px solid white;
+}
