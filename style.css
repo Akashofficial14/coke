@@ -39,3 +39,52 @@ filter: blur(2px);
 .conp1{
   border-bottom: 2px solid white;
 }
+@media (max-width:500px) {
+  main{
+    height: 1000vh !important;
+    width: 650px !important;
+    background-color: red;
+    padding: 3vw 0;
+  }
+  nav{
+    height: 8vh !important;
+    margin-bottom: 4vh;
+  }
+  nav #navp1,nav #navp3{
+    font-size: 10vw;
+  }
+  nav #navp3{
+    margin-right: 4vw;
+  }
+   nav #navp2 ,nav #menu{
+display: none;
+  }
+  #sec1{
+    height: 1200vh !important;
+    width: 630px !important;
+    flex-direction: column;
+  }
+  #sec1 #part1, #sec1 #part2, #sec1 #part3{
+    width: 650px !important;
+  }
+   #sec1 #part1{
+   height: auto !important;
+   width: auto !important;
+   margin-top: 40px;
+   gap: 6vw;
+   }
+  #sec1 #part1 h2{
+font-size: 17vw;
+  }
+   #sec1 #part1 span{
+font-size: 17vw;
+  }
+  #sec1 #part1 p{
+    font-size: 6vw;
+    line-height: 1.4;
+  }
+  #sec1 #part1 button{
+    font-size: 30px;
+    padding: 30px 40px;
+  }
+}
