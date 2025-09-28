@@ -42,30 +42,28 @@ filter: blur(2px);
 @media (max-width:500px) {
   main{
     height: 1000vh !important;
-    width: 650px !important;
+    width: 410px !important;
     background-color: red;
     padding: 3vw 0;
   }
   nav{
     height: 8vh !important;
-    margin-bottom: 4vh;
+    width: 100%;
+    /* margin-bottom: 4vh; */
   }
   nav #navp1,nav #navp3{
     font-size: 10vw;
-  }
-  nav #navp3{
-    margin-right: 4vw;
   }
    nav #navp2 ,nav #menu{
 display: none;
   }
   #sec1{
     height: 1200vh !important;
-    width: 630px !important;
+    width: 100% !important;
     flex-direction: column;
   }
   #sec1 #part1, #sec1 #part2, #sec1 #part3{
-    width: 650px !important;
+    width: 100% !important;
   }
    #sec1 #part1{
    height: auto !important;
@@ -73,23 +71,23 @@ display: none;
    gap: 6vw;
    }
   #sec1 #part1 h2{
-font-size: 17vw;
+font-size:11.8vw;
   }
    #sec1 #part1 span{
-font-size: 17vw;
+font-size:11.8vw;
   }
   #sec1 #part1 p{
-    font-size: 6vw;
+    font-size: 4.3vw;
     line-height: 1.4;
   }
   #sec1 #part1 button{
-    font-size: 30px;
-    padding: 30px 40px;
+    font-size: 25px;
+    padding: 15px 25px;
   }
   #part2 img{
   height: 75%;
   position: absolute;
-  left:15%;
+  left:0;
   object-fit: cover;
 }
 #part2 #center-bg{
