@@ -8,7 +8,8 @@ html , body{
     width: 100%;
 }
 body{
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 nav img{
@@ -41,8 +42,8 @@ filter: blur(2px);
 }
 @media (max-width:500px) {
   main{
-    height: 1000vh !important;
-    width: 410px !important;
+    height: 150vh !important;
+    width: 100% !important;
     background-color: red;
     padding: 3vw 0;
   }
@@ -51,47 +52,71 @@ filter: blur(2px);
     width: 100%;
     /* margin-bottom: 4vh; */
   }
-  nav #navp1,nav #navp3{
-    font-size: 10vw;
+  nav #navp1 i, nav #navp3 i{
+    font-size: 30px !important;
   }
    nav #navp2 ,nav #menu{
 display: none;
   }
   #sec1{
-    height: 1200vh !important;
+    height: auto !important;
     width: 100% !important;
     flex-direction: column;
   }
   #sec1 #part1, #sec1 #part2, #sec1 #part3{
     width: 100% !important;
+    height: auto !important;
+  }
+  #sec1 #part2{
+    margin-top: 3vh;
+    position: relative;
   }
    #sec1 #part1{
    height: auto !important;
    width: auto !important;
    gap: 6vw;
+   padding: 2vh 4.5vh;
    }
   #sec1 #part1 h2{
-font-size:11.8vw;
+font-size:12.5vw;
   }
    #sec1 #part1 span{
-font-size:11.8vw;
+font-size:12.5vw;
   }
   #sec1 #part1 p{
-    font-size: 4.3vw;
+    font-size: 4.5vw;
     line-height: 1.4;
   }
   #sec1 #part1 button{
-    font-size: 25px;
+    font-size:18px;
     padding: 15px 25px;
   }
   #part2 img{
-  height: 75%;
+  height: 125%;
   position: absolute;
   left:0;
   object-fit: cover;
+  z-index: 2;
 }
 #part2 #center-bg{
-  height: 70%;
-  width: 85%;
+  height: 55vh !important;
+  width: 85% !important;
+  position: relative;
+  z-index: 1;
 }
+#part3 {
+  position: relative;
+  margin-top: 8vh;
+}
+#content{
+position: absolute;
+left:10%;
+}
+#content h4,i{
+  font-size: 20px;
+}
+#content p{
+  font-size: 15px;
+}
+
 }
