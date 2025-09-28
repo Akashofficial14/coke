@@ -70,7 +70,6 @@ display: none;
    #sec1 #part1{
    height: auto !important;
    width: auto !important;
-   margin-top: 40px;
    gap: 6vw;
    }
   #sec1 #part1 h2{
@@ -87,4 +86,14 @@ font-size: 17vw;
     font-size: 30px;
     padding: 30px 40px;
   }
+  #part2 img{
+  height: 75%;
+  position: absolute;
+  left:15%;
+  object-fit: cover;
+}
+#part2 #center-bg{
+  height: 70%;
+  width: 85%;
+}
 }
